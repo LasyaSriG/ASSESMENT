@@ -1,9 +1,9 @@
 module "networking" {
-source = "/root/terraform-jenkins/modules/networking"
+source = "/home/lasyasrilasya14/ASSESMENT/terraform-jenkins/modules/networking"
 }
 
 module "service-account" {
-source = "/root/terraform-jenkins/modules/service-account"
+source = "/home/lasyasrilasya14/ASSESMENT/terraform-jenkins/modules/service-account"
 }
 
 resource "google_compute_instance" "bastion" {
