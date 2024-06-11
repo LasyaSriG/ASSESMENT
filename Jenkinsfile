@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/summu97/ASSESMENT.git'
+                git branch: 'main', url: 'https://github.com/LasyaSriG/ASSESMENT.git'
             }
         }
         stage('Desktop-tfm-init') {
