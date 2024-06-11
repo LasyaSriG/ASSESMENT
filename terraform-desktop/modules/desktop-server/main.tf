@@ -18,8 +18,8 @@ resource "google_compute_instance" "desktop-server" {
   }
 
   network_interface {
-    network = "projects/sumanth-97/global/networks/default-vpc"
-    subnetwork = "projects/sumanth-97/regions/us-west1/subnetworks/default-desktop-server-subnet"
+    network = "projects/lasya-ganta-14/global/networks/default-vpc"
+    subnetwork = "projects/lasya-ganta-14/regions/us-west1/subnetworks/default-desktop-server-subnet"
 
     access_config {
       // Ephemeral IP
@@ -28,7 +28,7 @@ resource "google_compute_instance" "desktop-server" {
 
   service_account {
     # Google recommends custom service accounts that have cloud-platform scope and permissions granted via IAM Roles.
-    email  = "default-svc@sumanth-97.iam.gserviceaccount.com"
+    email  = "default-svc@lasya-ganta-14.iam.gserviceaccount.com"
     scopes = ["cloud-platform"]
   }
 
