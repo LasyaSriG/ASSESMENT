@@ -1,5 +1,5 @@
 provider "google" {
-  project     = "sumanth-97"
+  project     = "lasya-ganta-14"
 }
 
 module "jenkins-server" {
