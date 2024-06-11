@@ -3,5 +3,5 @@ provider "google" {
 }
 
 module "jenkins-server" {
-source = "/root/terraform-jenkins/modules/jenkins-server"
+source = "/home/lasyasrilasya14/ASSESMENT/terraform-jenkins/modules/jenkins-server"
 }
